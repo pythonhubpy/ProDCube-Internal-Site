@@ -13,4 +13,3 @@ pre-commit:
       run: yarn prettier:fix
     check-format:
       run: yarn cf
-
