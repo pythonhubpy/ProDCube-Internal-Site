@@ -3,13 +3,14 @@ pre-commit:
   commands:
     sort-json:
       run: sort-package-json package.json
-    eslint:
-      run: yarn lint
     eslint-fix:
       run: yarn lint:fix
+    eslint:
+      run: yarn lint
     check-types:
       run: yarn ct
-    check-format:
-      run: yarn cf
     prettier-fix:
       run: yarn prettier:fix
+    check-format:
+      run: yarn cf
+
