@@ -5,7 +5,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<div>
-				<Heading>Home Page</Heading>
+				<Heading className={"heading"}>Home Page</Heading>
 			</div>
 		</>
 	);

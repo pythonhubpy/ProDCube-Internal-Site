@@ -7,7 +7,7 @@
     "@typescript-eslint",
     "prettier"
   ],
-  "ignorePatterns": "next.config.js",
+  "ignorePatterns": ["next.config.js", "*.js"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
