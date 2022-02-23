@@ -21,9 +21,15 @@ export default class MyDocument extends Document {
 					<>
 						<meta charSet="UTF-8" />
 						<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-						<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+						<meta
+							name="viewport"
+							content="width=device-width, initial-scale=1.0"
+						/>
 						<meta name="description" content="Your description goes here" />
-						<meta name="keywords" content="HTML, CSS, JavaScript, Next.js, React.js, TypeScript" />
+						<meta
+							name="keywords"
+							content="HTML, CSS, JavaScript, Next.js, React.js, TypeScript"
+						/>
 						<meta name="author" content="ProDCube" />
 						<meta name="keyword" />
 						<title>Starter App</title>
