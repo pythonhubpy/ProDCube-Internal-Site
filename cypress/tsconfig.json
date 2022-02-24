@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "isolatedModules": false,
+    "jsx": "react-jsxdev",
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "../node_modules/cypress",
+    "**/*.ts"
+  ]
+}

@@ -25,7 +25,10 @@ export default class MyDocument extends Document {
 							name="viewport"
 							content="width=device-width, initial-scale=1.0"
 						/>
-						<meta name="description" content="Your description goes here" />
+						<meta
+							name="description"
+							content="Your description goes here"
+						/>
 						<meta
 							name="keywords"
 							content="HTML, CSS, JavaScript, Next.js, React.js, TypeScript"

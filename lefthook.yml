@@ -1,15 +1,15 @@
 pre-commit:
-  parallel: true
-  commands:
-    sort-json:
-      run: sort-package-json package.json
-    eslint-fix:
-      run: yarn lint:fix
-    eslint:
-      run: yarn lint
-    check-types:
-      run: yarn ct
-    prettier-fix:
-      run: yarn prettier:fix
-    check-format:
-      run: yarn cf
+    parallel: true
+    commands:
+        sort-json:
+            run: sort-package-json package.json
+        eslint-fix:
+            run: yarn lint:fix
+        eslint:
+            run: yarn lint
+        #        check-types:
+        #            run: yarn ct
+        prettier-fix:
+            run: yarn prettier:fix
+        check-format:
+            run: yarn cf
