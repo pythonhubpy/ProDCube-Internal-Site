@@ -20,7 +20,9 @@
 		"lint:fix": "next lint --fix",
 		"prettier:fix": "prettier --write .",
 		"start": "next start",
-		"test": "jest"
+		"test": "jest",
+		"cypress": "cypress run",
+		"cypress:open": "cypress open"
 	},
 	"dependencies": {
 		"next": "12.1.0",

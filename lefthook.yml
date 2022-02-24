@@ -7,8 +7,8 @@ pre-commit:
             run: yarn lint:fix
         eslint:
             run: yarn lint
-        #        check-types:
-        #            run: yarn ct
+        check-types:
+            run: yarn ct
         prettier-fix:
             run: yarn prettier:fix
         check-format:

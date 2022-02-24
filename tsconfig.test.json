@@ -1,8 +1,8 @@
 {
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "allowJs": true,
-    "isolatedModules": false,
-    "jsx": "react-jsxdev"
-  }
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"isolatedModules": false,
+		"jsx": "react-jsxdev"
+	}
 }

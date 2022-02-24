@@ -6,4 +6,3 @@ describe("Home Page", () => {
 		cy.get(".heading").should("have.text", "Home Page");
 	});
 });
-
