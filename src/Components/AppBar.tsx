@@ -13,7 +13,7 @@ const AppBar: FC = () => {
 					<a href="#">Home</a>
 				</li>
 				<Row>
-					<a href="#" style={{ marginRight: "10px" }}>John Doe</a>
+					<a href="#" style={{ marginRight: "12px" }}>John Doe</a>
 					<CircleAvatar
 						src={"https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80"}
 						alt={"Profile Picture"}
@@ -36,12 +36,14 @@ const AppBarMenu = styled.ul`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-size: 1.5rem;
+  color: white;
 
   li {
     cursor: pointer;
   }
 
-  li a {
+  a {
     text-decoration: none;
   }
 `;

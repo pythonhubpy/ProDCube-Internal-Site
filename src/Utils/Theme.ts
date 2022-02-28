@@ -6,8 +6,9 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
-    font-family: "Lato", sans-serif;
+    //background-color: white;
+    font-family: "Teko", sans-serif;
+    background: #1C1E21;
   }
 
   a {
